@@ -30,7 +30,7 @@ public class Data {
     private static DateFormat formato2 = new SimpleDateFormat("dd-MMMM-yyyy");
 
     public Data(){
-        System.out.println("Digite uma data VÁLIDA: ");
+        System.out.println("Digite uma data VÁLIDA:\n");
         while(true){
             entraDia();
             entraMes();
