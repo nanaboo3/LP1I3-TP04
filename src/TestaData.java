@@ -26,9 +26,6 @@ public class TestaData {
         System.out.println("Dias transcorridos no ano: "+data2.diasTranscorridos());
         System.out.print("É ano bissexto?");
         System.out.println(data2.bissexto() ? " SIM" : " NÃO");
-
-
-
     }
 
 }

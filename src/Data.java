@@ -26,7 +26,6 @@ public class Data {
     private Date data = new Date();
     private Calendar calendario = Calendar.getInstance();
     private String dataInserida;
-    private static Date dataAtual = new Date();
     private static DateFormat formato1 = new SimpleDateFormat("dd-MM-yyyy");
     private static DateFormat formato2 = new SimpleDateFormat("dd-MMMM-yyyy");
 
@@ -96,6 +95,7 @@ public class Data {
     public int diasTranscorridos(){return calendario.get(Calendar.DAY_OF_YEAR);}
 
     public static void apresentaDataAtual(){
+        Date dataAtual = new Date();
         DateFormat dateFormat = DateFormat.getDateInstance(DateFormat.FULL);
         System.out.println(dateFormat.format(dataAtual));
     }
