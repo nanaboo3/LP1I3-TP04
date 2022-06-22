@@ -27,5 +27,4 @@ public class TestaData {
         System.out.print("É ano bissexto?");
         System.out.println(data2.bissexto() ? " SIM" : " NÃO");
     }
-
 }

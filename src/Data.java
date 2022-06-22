@@ -30,7 +30,7 @@ public class Data {
     private static DateFormat formato2 = new SimpleDateFormat("dd-MMMM-yyyy");
 
     public Data(){
-        System.out.println("Digite uma data VÁLIDA (dd-MM-aaaa): ");
+        System.out.println("Digite uma data VÁLIDA: ");
         while(true){
             entraDia();
             entraMes();
@@ -45,7 +45,7 @@ public class Data {
                 calendario.setTime(data);
                 break;
             }
-            System.out.println("ERRO: Digite uma data que seja válida. (dd-MM-aaaa)");
+            System.out.println("ERRO: Digite uma data que seja válida.");
         }
     }
 
